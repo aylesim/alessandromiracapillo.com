@@ -36,7 +36,16 @@ body {
 .artmenu ul {
     color: white;
     display: block;
-    line-height: 40px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.artmenu a{
+    color: white;
+    display: block;
+    line-height: 0px;
+    color: white;
+    display: block;
     list-style-type: none;
     text-decoration: none;
 }
@@ -205,12 +214,16 @@ a {
 
     .artmenu {
         left: 0%;
+        list-style-type: none;
     }
 
     .artmenu ul{
-        line-height: 60px;
-        font-size: 0.8em;
+        font-size: 0.9em;
+    }
 
+    .artmenu a{
+        line-height: 50px;
+        
     }
 
     .back-button {
