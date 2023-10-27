@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;  
+    position: fixed;
+    font-size: 2em;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;  
+}
+
+.content {
+    position: relative; 
+    top: 2%; 
+    left: 40%; 
+    font-size: 1em; 
+    width: 100%;
+}
+
+.content ul{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    margin-top: 0;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;  /* Imposta il peso del font a normale */
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;  /* Imposta il margine inferiore a zero */
+}
+
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;  /* Imposta il margine inferiore a zero */
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+}
+
+.back-button {
+    display: none;
+    font-size: 1.5em; 
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(78, 78, 78);
+}
+
+.back-button a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 920px) {
+
+    .content {
+        left: 0%;
+        font-size: 1.3em; 
+    }
+
+    .content ul {
+        list-style-type: "   ";
+        list-style-position: inside;
+        margin-left: 0;
+        padding-left: 1;
+    }
+
+    .menu {
+        display: none; /* Nascondi il menu quando la larghezza è inferiore a 768px */
+    }
+
+    .back-button {
+        display: block;
+    }
+
+    #index-page .menu {
+        display: block;
+    }
+}
+
