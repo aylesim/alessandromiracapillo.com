@@ -79,6 +79,20 @@ body {
     padding-left: 0;
 }
 
+.contentaudio{
+    position: relative;
+    word-wrap: break-word;
+    top: 2%;
+    left: 40%;
+    font-size: 1.3em;
+    width: 60%;
+}
+
+.contentaudio img{
+    height: 100%; 
+    width: 100%;
+}
+
 .about {
     position: relative;
     word-wrap: break-word;
@@ -155,6 +169,19 @@ a {
         font-size: 1em;
     }
 
+    .contentaudio {
+        left: 0%;
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    .contentaudio a{
+        left: 0%;
+        width: 100%;
+        line-height: 40px;
+        font-size: 1em;
+    }
+
     .about {
         left: 0%;
         width: 100%;
@@ -196,7 +223,7 @@ a {
 
 
 
-    a {
+    .about a {
         line-height: 37px;
     }
 
