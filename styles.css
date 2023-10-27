@@ -21,11 +21,12 @@ body {
 }
 
 .content {
-    position: relative; 
+    position: relative;
+    word-wrap: break-word;
     top: 2%; 
     left: 40%; 
     font-size: 1em; 
-    width: 100%;
+    width: 60%;
 }
 
 .content ul{
@@ -38,6 +39,7 @@ body {
 }
 
 h1 {
+    word-wrap: break-word;
     font-family: 'Inter', sans-serif;
     font-weight: 400;  /* Imposta il peso del font a normale */
     color: white;
@@ -47,6 +49,7 @@ h1 {
 
 
 h2 {
+    word-wrap: break-word;
     margin-top: 0;
     margin-bottom: 0;  /* Imposta il margine inferiore a zero */
 }
@@ -73,11 +76,12 @@ a {
 
     .content {
         left: 0%;
+        width: 100%;
         font-size: 1.3em; 
     }
 
     .content ul {
-        list-style-type: "   ";
+        list-style-type: "- ";
         list-style-position: inside;
         margin-left: 0;
         padding-left: 1;
