@@ -19,34 +19,26 @@ body {
     color: white;
     text-decoration: none;
     display: block;
-        line-height: 35px
+    line-height: 35px
 }
 
 .artmenu {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    font-size: 1.3em;
     top: 2%;
-    left: 40%;
-    font-size: 1em;
+    left: 30%;
     position: relative;
     word-wrap: break-word;
-    width: 60%;
+    width: 100%;
 }
 
-.artmenu a {
+.artmenu ul {
     color: white;
-    text-decoration: none;
     display: block;
-}
-
-.artmenu li {
-    color: white;
+    line-height: 40px;
+    list-style-type: none;
     text-decoration: none;
-    display: block;
-    list-style-type: "-> ";
-    color: white;
-    text-decoration: none;
-    display: block;
 }
 
 
@@ -136,11 +128,10 @@ a {
     font-size: 1.5em;
     text-align: left;
     padding: 10px;
-    background-color: rgb(78, 78, 78);
 }
 
 .back-button a {
-    color: white;
+    color: #FF0000;
     text-decoration: none;
 }
 
@@ -159,7 +150,7 @@ a {
         padding-left: 1;
     }
 
-    .content p{
+    .content p {
 
         font-size: 1em;
     }
@@ -181,12 +172,22 @@ a {
         display: none;
     }
 
-    .menu a{
+    .menu a {
         line-height: 60px;
+    }
+
+    .artmenu {
+        left: 0%;
+    }
+
+    .artmenu ul{
+        line-height: 60px;
+
     }
 
     .back-button {
         display: block;
+        color: #FF0000;
     }
 
     #index-page .menu {
