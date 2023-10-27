@@ -5,28 +5,29 @@ body {
     background-color: black;
     color: white;
     font-family: 'Inter', sans-serif;
-    line-height: 30px;
 }
 
 .menu {
     font-family: 'Inter', sans-serif;
-    font-weight: 600;  
+    font-weight: 600;
     position: fixed;
     font-size: 2em;
+    line-height: 35px
 }
 
 .menu a {
     color: white;
     text-decoration: none;
-    display: block;  
+    display: block;
+        line-height: 35px
 }
 
 .artmenu {
     font-family: 'Inter', sans-serif;
-    font-weight: 600;  
-    top: 2%; 
-    left: 40%; 
-    font-size: 1em; 
+    font-weight: 600;
+    top: 2%;
+    left: 40%;
+    font-size: 1em;
     position: relative;
     word-wrap: break-word;
     width: 60%;
@@ -35,21 +36,69 @@ body {
 .artmenu a {
     color: white;
     text-decoration: none;
-    display: block;  
+    display: block;
 }
+
+.artmenu li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    list-style-type: "-> ";
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
 
 .content {
     position: relative;
     word-wrap: break-word;
-    top: 2%; 
-    left: 40%; 
-    font-size: 1em; 
+    top: 2%;
+    left: 40%;
+    font-size: 0.8em;
     width: 60%;
 }
 
-.content ul{
+.content ul {
     font-family: 'Inter', sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
+    margin-top: 0;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.content p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.content h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    list-style-type: bold;
+    font-size: 2em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.about {
+    position: relative;
+    word-wrap: break-word;
+    top: 2%;
+    left: 40%;
+    font-size: 1em;
+    width: 60%;
+}
+
+.about ul {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     margin-top: 0;
     list-style-type: none;
     margin-left: 0;
@@ -60,28 +109,31 @@ body {
 h1 {
     word-wrap: break-word;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;  /* Imposta il peso del font a normale */
+    font-weight: 400;
+    /* Imposta il peso del font a normale */
     color: white;
     margin-top: 0;
-    margin-bottom: 0;  /* Imposta il margine inferiore a zero */
+    margin-bottom: 0;
+    /* Imposta il margine inferiore a zero */
 }
 
 
 h2 {
     word-wrap: break-word;
     margin-top: 0;
-    margin-bottom: 0;  /* Imposta il margine inferiore a zero */
+    margin-bottom: 0;
+    /* Imposta il margine inferiore a zero */
 }
 
 a {
-    color: white; 
+    color: white;
     text-decoration: none;
-    line-height: 45px;
+    /*line-height: 45px;*/
 }
 
 .back-button {
     display: none;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     text-align: left;
     padding: 10px;
     background-color: rgb(78, 78, 78);
@@ -97,18 +149,40 @@ a {
     .content {
         left: 0%;
         width: 100%;
-        font-size: 1.3em; 
+        font-size: 1.3em;
     }
 
     .content ul {
-        list-style-type: "o  ";
+        list-style-type: "-> ";
+        list-style-position: inside;
+        margin-left: 0;
+        padding-left: 1;
+    }
+
+    .content p{
+
+        font-size: 1em;
+    }
+
+    .about {
+        left: 0%;
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    .about ul {
+        list-style-type: "-> ";
         list-style-position: inside;
         margin-left: 0;
         padding-left: 1;
     }
 
     .menu {
-        display: none; /* Nascondi il menu quando la larghezza è inferiore a 768px */
+        display: none;
+    }
+
+    .menu a{
+        line-height: 60px;
     }
 
     .back-button {
@@ -118,5 +192,11 @@ a {
     #index-page .menu {
         display: block;
     }
-}
 
+
+
+    a {
+        line-height: 37px;
+    }
+
+}
